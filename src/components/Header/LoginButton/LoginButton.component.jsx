@@ -9,7 +9,7 @@ const CustomButton = styled(PersonCircle)`
 `;
 
 const LoginButton = () => {
-  return <CustomButton></CustomButton>;
+  return <CustomButton data-testid="LoginButton" />;
 };
 
 export default LoginButton;

@@ -9,7 +9,7 @@ const MenuIcon = styled(Menu)`
 `;
 
 const BurgerMenu = () => {
-  return <MenuIcon></MenuIcon>;
+  return <MenuIcon data-testid="BurgerMenu" />;
 };
 
 export default BurgerMenu;

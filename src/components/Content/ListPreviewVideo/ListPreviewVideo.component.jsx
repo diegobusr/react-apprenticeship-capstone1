@@ -24,13 +24,9 @@ const ListPreviewVideo = () => {
 
   return (
     <CustomDiv>
-      {ListVideos
+      {ListVideos.length !== 0
         ? ListVideos.slice(1).map((item) => {
-            return (
-              <PreviewVideoCard InfoVideo={item} key={item.etag}>
-                {' '}
-              </PreviewVideoCard>
-            );
+            return <PreviewVideoCard infoVideo={item} key={item.etag} />;
           })
         : 'No elements to be display..'}
     </CustomDiv>

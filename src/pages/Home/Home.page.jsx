@@ -9,7 +9,7 @@ function HomePage() {
 
   return (
     <section className="homepage" ref={sectionRef}>
-      <Header></Header>
+      <Header />
       <Content>
         <ListPreviewVideo></ListPreviewVideo>
       </Content>

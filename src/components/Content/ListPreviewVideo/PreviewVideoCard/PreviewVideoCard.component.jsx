@@ -40,12 +40,12 @@ const CardView = styled.div`
   }
 `;
 
-const PreviewVideoCard = ({ InfoVideo }) => {
+const PreviewVideoCard = ({ infoVideo }) => {
   return (
     <CardView>
-      <img src={InfoVideo.snippet.thumbnails.high.url} alt=""></img>
-      <h2> {InfoVideo.snippet.title} </h2>
-      <span> {InfoVideo.snippet.description} </span>
+      <img src={infoVideo.snippet.thumbnails.high.url} alt="thumbnail"></img>
+      <h2> {infoVideo.snippet.title} </h2>
+      <span> {infoVideo.snippet.description} </span>
     </CardView>
   );
 };
