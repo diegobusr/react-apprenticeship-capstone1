@@ -18,7 +18,7 @@ const CardView = styled.div`
 
   img {
     flex: 1 0 0;
-    height: 160px;
+    height: 145px;
     width: 100%;
     border-radius: 5px 5px 0 0;
     object-fit: cover;

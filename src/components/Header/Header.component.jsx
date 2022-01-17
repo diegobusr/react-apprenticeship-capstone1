@@ -13,7 +13,7 @@ const Navbar = styled.nav`
   width: 100%;
   height: 10vh;
   flex-wrap: wrap;
-  background-color: #1b5476;
+  background-color: #501d7a;
   padding: 0;
   margin: 0;
   box-sizing: border-box;

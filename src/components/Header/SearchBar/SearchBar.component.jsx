@@ -5,7 +5,7 @@ const SearchInput = styled.input`
   flex: 1;
   font-size: 22px;
   padding: 10px;
-  background-color: #416e8a;
+  background-color: #703b9c;
   color: white;
   border: none;
   outline: none;
