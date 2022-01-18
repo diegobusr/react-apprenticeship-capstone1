@@ -1,12 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
-import { PersonCircle } from '@styled-icons/bootstrap/PersonCircle';
-
-const CustomButton = styled(PersonCircle)`
-  color: white;
-  width: 50px;
-  height: 50px;
-`;
+import { CustomButton } from './LoginButton.styles';
 
 const LoginButton = () => {
   return <CustomButton data-testid="LoginButton" />;

@@ -1,22 +1,28 @@
-import React from 'react';
-import styled from 'styled-components';
+import React, { useState } from 'react';
+import { SearchInput } from './SearchBar.styles';
 
-const SearchInput = styled.input`
-  flex: 1;
-  font-size: 22px;
-  padding: 10px;
-  background-color: #703b9c;
-  color: white;
-  border: none;
-  outline: none;
+const SearchBar = ({ setSearchText }) => {
+  const [inputValue, setInputValue] = useState('');
 
-  ::placeholder {
-    color: #cccccc;
-  }
-`;
+  const onChangeInput = (e) => {
+    setInputValue(e.target.value);
+  };
 
-const SearchBar = () => {
-  return <SearchInput type="text" placeholder="Wizeline"></SearchInput>;
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      setSearchText(e.target.value);
+    }
+  };
+
+  return (
+    <SearchInput
+      value={inputValue}
+      type="text"
+      placeholder="Wizeline"
+      onChange={(e) => onChangeInput(e)}
+      onKeyPress={(e) => handleKeyPress(e)}
+    />
+  );
 };
 
 export default SearchBar;

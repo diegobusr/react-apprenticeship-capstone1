@@ -1,8 +1,8 @@
 import React from 'react';
 import { CustomDiv } from './Content.styles';
 
-const Content = ({ children }) => {
+const VideoDetailContent = ({ children }) => {
   return <CustomDiv>{children}</CustomDiv>;
 };
 
-export default Content;
+export default VideoDetailContent;

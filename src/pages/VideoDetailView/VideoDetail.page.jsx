@@ -1,13 +1,13 @@
-import React, { useRef } from 'react';
-import Header from '../../components/Header';
+import React from 'react';
 import Content from '../../components/Content/Content.component';
+import { useParams } from 'react-router';
 
 function VideoDetail() {
-  const sectionRef = useRef(null);
+  const { videoId } = useParams();
+  console.log(`videoId`, videoId);
 
   return (
-    <section className="VideoDetail" ref={sectionRef}>
-      <Header />
+    <section>
       <Content>
         <h1> details.. </h1>
       </Content>

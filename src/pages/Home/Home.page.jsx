@@ -1,17 +1,12 @@
-import React, { useRef } from 'react';
-
-import Header from '../../components/Header';
+import React from 'react';
 import ListPreviewVideo from '../../components/Content/ListPreviewVideo';
 import Content from '../../components/Content/Content.component';
 
-function HomePage() {
-  const sectionRef = useRef(null);
-
+function HomePage({ searchText }) {
   return (
-    <section className="homepage" ref={sectionRef}>
-      <Header />
+    <section>
       <Content>
-        <ListPreviewVideo></ListPreviewVideo>
+        <ListPreviewVideo searchText={searchText} />
       </Content>
     </section>
   );
