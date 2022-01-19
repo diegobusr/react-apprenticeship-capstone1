@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import HomePage from '../../pages/Home';
-import VideoDetail from '../../pages/VideoDetailView/VideoDetail.page';
+import VideoDetail from '../../pages/VideoDetail/VideoDetail.page';
 import Header from '../Header';
 
 function App() {

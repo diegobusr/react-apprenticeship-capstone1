@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1642207945478" clover="3.2.0">
-  <project timestamp="1642207945478" name="All files">
-    <metrics statements="46" coveredstatements="43" conditionals="2" coveredconditionals="2" methods="16" coveredmethods="14" elements="64" coveredelements="59" complexity="0" loc="46" ncloc="46" packages="13" files="25" classes="25"/>
+<coverage generated="1642614199186" clover="3.2.0">
+  <project timestamp="1642614199186" name="All files">
+    <metrics statements="104" coveredstatements="94" conditionals="14" coveredconditionals="11" methods="32" coveredmethods="26" elements="150" coveredelements="131" complexity="0" loc="104" ncloc="104" packages="22" files="57" classes="57"/>
     <package name="src">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/index.js">
@@ -10,10 +10,11 @@
       </file>
     </package>
     <package name="src.components.App">
-      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="App.component.jsx" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/App/App.component.jsx">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="7" count="0" type="stmt"/>
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
       </file>
       <file name="index.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/App/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -22,53 +23,65 @@
     <package name="src.components.Content">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="Content.component.jsx" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Content/Content.component.jsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="4" count="2" type="stmt"/>
-        <line num="12" count="2" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+      </file>
+      <file name="Content.styles.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Content/Content.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
       </file>
       <file name="index.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Content/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
     <package name="src.components.Content.ListPreviewVideo">
-      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <file name="ListPreviewVideo.component.jsx" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Content/ListPreviewVideo/ListPreviewVideo.component.jsx">
-        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="15" count="3" type="stmt"/>
-        <line num="17" count="3" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="11" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="2" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="25" count="3" type="stmt"/>
-        <line num="29" count="24" type="stmt"/>
+        <line num="23" count="25" type="stmt"/>
+      </file>
+      <file name="ListPreviewVideo.styles.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Content/ListPreviewVideo/ListPreviewVideo.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
       </file>
       <file name="index.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Content/ListPreviewVideo/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
     <package name="src.components.Content.ListPreviewVideo.PreviewVideoCard">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="PreviewVideoCard.component.jsx" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Content/ListPreviewVideo/PreviewVideoCard/PreviewVideoCard.component.jsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="4" count="3" type="stmt"/>
-        <line num="43" count="3" type="stmt"/>
-        <line num="44" count="25" type="stmt"/>
+        <line num="5" count="26" type="stmt"/>
+        <line num="6" count="26" type="stmt"/>
+        <line num="7" count="26" type="stmt"/>
+      </file>
+      <file name="PreviewVideoCard.styles.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Content/ListPreviewVideo/PreviewVideoCard/PreviewVideoCard.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
       </file>
       <file name="index.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Content/ListPreviewVideo/PreviewVideoCard/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
     <package name="src.components.Header">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="Header.component.jsx" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Header/Header.component.jsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
-        <line num="23" count="2" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+      <file name="Header.styles.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Header/Header.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
       <file name="index.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Header/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -77,10 +90,13 @@
     <package name="src.components.Header.BurgerMenu">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="BurgerMenu.component.jsx" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Header/BurgerMenu/BurgerMenu.component.jsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="11" count="4" type="stmt"/>
-        <line num="12" count="4" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+      </file>
+      <file name="BurgerMenu.styles.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Header/BurgerMenu/BurgerMenu.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
       </file>
       <file name="index.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Header/BurgerMenu/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -89,10 +105,13 @@
     <package name="src.components.Header.LeftSideHeader">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="LeftSideHeader.component.jsx" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Header/LeftSideHeader/LeftSideHeader.component.jsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="22" count="3" type="stmt"/>
-        <line num="23" count="3" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+      </file>
+      <file name="LeftSideHeader.styles.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Header/LeftSideHeader/LeftSideHeader.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
       </file>
       <file name="index.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Header/LeftSideHeader/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -101,10 +120,13 @@
     <package name="src.components.Header.LoginButton">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="LoginButton.component.jsx" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Header/LoginButton/LoginButton.component.jsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="11" count="4" type="stmt"/>
-        <line num="12" count="4" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+      </file>
+      <file name="LoginButton.styles.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Header/LoginButton/LoginButton.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
       </file>
       <file name="index.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Header/LoginButton/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -112,23 +134,39 @@
     </package>
     <package name="src.components.Header.RigthSideHeader">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="RIghtSideHeader.styles.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Header/RigthSideHeader/RIghtSideHeader.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+      </file>
       <file name="RightSideHeader.component.jsx" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Header/RigthSideHeader/RightSideHeader.component.jsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="18" count="3" type="stmt"/>
-        <line num="19" count="3" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
       </file>
       <file name="index.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Header/RigthSideHeader/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
     <package name="src.components.Header.SearchBar">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="13" coveredstatements="7" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="1"/>
       <file name="SearchBar.component.jsx" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Header/SearchBar/SearchBar.component.jsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="18" count="4" type="stmt"/>
-        <line num="19" count="4" type="stmt"/>
+        <metrics statements="12" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="1"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+      </file>
+      <file name="SearchBar.styles.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Header/SearchBar/SearchBar.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="3" type="stmt"/>
       </file>
       <file name="index.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Header/SearchBar/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -137,29 +175,172 @@
     <package name="src.components.Header.ThemeToggle">
       <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <file name="ThemeToggle.component.jsx" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Header/ThemeToggle/ThemeToggle.component.jsx">
-        <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="12" count="4" type="stmt"/>
-        <line num="35" count="4" type="stmt"/>
-        <line num="48" count="4" type="stmt"/>
-        <line num="49" count="4" type="stmt"/>
-        <line num="51" count="4" type="stmt"/>
-        <line num="52" count="0" type="stmt"/>
-        <line num="55" count="4" type="stmt"/>
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+      </file>
+      <file name="ThemeToggle.styles.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Header/ThemeToggle/ThemeToggle.styles.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
       </file>
       <file name="index.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/Header/ThemeToggle/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="src.pages.Home">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="Home.page.jsx" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/pages/Home/Home.page.jsx">
+    <package name="src.components.VideoDetailContent">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="VideoDetailContent.component.jsx" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/VideoDetailContent/VideoDetailContent.component.jsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+      </file>
+      <file name="VideoDetailContent.styles.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/VideoDetailContent/VideoDetailContent.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/VideoDetailContent/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.VideoDetailContent.LeftSideContent">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="LeftSideContent.component.jsx" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/VideoDetailContent/LeftSideContent/LeftSideContent.component.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+      </file>
+      <file name="LeftSideContent.styles.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/VideoDetailContent/LeftSideContent/LeftSideContent.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/VideoDetailContent/LeftSideContent/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.VideoDetailContent.ListRelatedVideos">
+      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="ListRelatedVideos.component.jsx" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/VideoDetailContent/ListRelatedVideos/ListRelatedVideos.component.jsx">
+        <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="10" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="17" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="31" count="100" type="stmt"/>
+      </file>
+      <file name="ListRelatedVideos.styles.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/VideoDetailContent/ListRelatedVideos/ListRelatedVideos.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="4" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/VideoDetailContent/ListRelatedVideos/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.VideoDetailContent.ListRelatedVideos.MiniVideoCard">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="MiniVideoCard.component.jsx" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/VideoDetailContent/ListRelatedVideos/MiniVideoCard/MiniVideoCard.component.jsx">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="101" type="stmt"/>
+        <line num="6" count="101" type="cond" truecount="1" falsecount="1"/>
+        <line num="7" count="101" type="stmt"/>
+        <line num="8" count="101" type="stmt"/>
+      </file>
+      <file name="MiniVideoCard.styles.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/VideoDetailContent/ListRelatedVideos/MiniVideoCard/MiniVideoCard.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="5" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/VideoDetailContent/ListRelatedVideos/MiniVideoCard/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.VideoDetailContent.RightSideContent">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="RightSideContent.component.jsx" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/VideoDetailContent/RightSideContent/RightSideContent.component.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+      </file>
+      <file name="RightSideContent.styles.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/VideoDetailContent/RightSideContent/RightSideContent.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/VideoDetailContent/RightSideContent/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.VideoDetailContent.VideoReproducer">
+      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="VideoReproducer.component.jsx" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/VideoDetailContent/VideoReproducer/VideoReproducer.component.jsx">
+        <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="14" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+      </file>
+      <file name="VideoReproducer.styles.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/VideoDetailContent/VideoReproducer/VideoReproducer.styles.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/components/VideoDetailContent/VideoReproducer/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.pages.Home">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Home.page.jsx" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/pages/Home/Home.page.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
       </file>
       <file name="index.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/pages/Home/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.pages.VideoDetail">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="VideoDetail.page.jsx" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/pages/VideoDetail/VideoDetail.page.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/pages/VideoDetail/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="youtube.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/utils/youtube.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="13" count="8" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils.hooks">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="useFetch.js" path="/Users/diego.bustamante/Documents/capstone/exercise1/react-apprenticeship-capstone1/src/utils/hooks/useFetch.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="4" count="19" type="stmt"/>
+        <line num="6" count="19" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="10" count="9" type="stmt"/>
+        <line num="14" count="19" type="stmt"/>
       </file>
     </package>
   </project>

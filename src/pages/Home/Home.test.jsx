@@ -4,11 +4,9 @@ import { render } from '@testing-library/react';
 
 describe('Home page', () => {
   it('must render the home view', () => {
-    const { getByTestId, getByRole } = render(<Home />);
+    const { getByRole } = render(<Home searchText={'test'} />);
 
-    expect(getByRole('textbox')).toBeInTheDocument();
-    expect(getByRole('checkbox')).toBeInTheDocument();
-    expect(getByTestId('BurgerMenu')).toBeInTheDocument();
-    expect(getByTestId('LoginButton')).toBeInTheDocument();
+    expect(getByRole('img')).toBeInTheDocument();
+    expect(getByRole('heading')).toBeInTheDocument();
   });
 });
