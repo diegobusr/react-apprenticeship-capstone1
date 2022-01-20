@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { CardView } from './PreviewVideoCard.styles';
-import { useContext } from 'react/cjs/react.development';
 import { GlobalContext } from '../../../App/App.component';
 
 const PreviewVideoCard = ({ infoVideo }) => {
