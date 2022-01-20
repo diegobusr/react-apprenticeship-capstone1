@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-export const LeftSideDiv = styled.div`
+export const DetailDiv = styled.div`
   display: flex;
-  width: 100%;
-  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 10px;
   background-color: ${(prop) => (prop.darkThemeOn ? '#121212' : '#FFFFFF')};
 `;

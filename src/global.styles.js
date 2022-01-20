@@ -1,3 +1,6 @@
+import { createGlobalStyle } from 'styled-components';
+
+export const GlobalStyle = createGlobalStyle`
 html {
   height: 100%;
   font-size: 1.125rem;
@@ -8,18 +11,16 @@ html {
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: rgba(0 0 0 0%);
 }
+  body {
+    background: ${(prop) => (prop.darkThemeOn ? '#121212' : '#FFFFFF')};
+    margin: 0;
+  padding: 0;
+  }
 
-*,
+  *,
 *::before,
 *::after {
   box-sizing: inherit;
-}
-
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 a {
@@ -31,3 +32,5 @@ a {
 a:active {
   color: blueviolet;
 }
+
+`;

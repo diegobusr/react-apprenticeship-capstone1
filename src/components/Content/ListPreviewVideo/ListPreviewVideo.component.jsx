@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import PreviewVideoCard from './PreviewVideoCard/PreviewVideoCard.component';
 import { urlApiGetVideos } from '../../../utils/youtube';
 import useFetch from '../../../utils/hooks/useFetch';
 import { CustomDiv } from './ListPreviewVideo.styles';
+import { GlobalContext } from '../../App/App.component';
 
-const ListPreviewVideo = ({ searchText }) => {
+const ListPreviewVideo = () => {
+  const { searchText } = useContext(GlobalContext).appContext;
+
   const { data: listVideos } = useFetch(urlApiGetVideos(searchText));
   //const { data: listVideos } = useFetch('./youtube-videos-mock.json');
 

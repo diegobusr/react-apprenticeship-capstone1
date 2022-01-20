@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { useHistory } from 'react-router';
+import { types } from '../../../utils/reducer';
+import { GlobalContext } from '../../App/App.component';
 import { SearchInput } from './SearchBar.styles';
 
-const SearchBar = ({ setSearchText }) => {
+const SearchBar = () => {
   const [inputValue, setInputValue] = useState('');
+  const { setAppContext } = useContext(GlobalContext);
 
   const history = useHistory();
 
@@ -13,7 +16,7 @@ const SearchBar = ({ setSearchText }) => {
 
   const handleKeyPress = (e) => {
     if (e.key === 'Enter') {
-      setSearchText(e.target.value);
+      setAppContext({ type: types.SET_SEARCH_TEXT, payload: e.target.value });
       history.push('/');
     }
   };

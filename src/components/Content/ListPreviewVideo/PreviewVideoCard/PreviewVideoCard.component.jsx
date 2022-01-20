@@ -1,11 +1,14 @@
 import React from 'react';
 import { CardView } from './PreviewVideoCard.styles';
+import { useContext } from 'react/cjs/react.development';
+import { GlobalContext } from '../../../App/App.component';
 
 const PreviewVideoCard = ({ infoVideo }) => {
+  const { darkThemeOn } = useContext(GlobalContext).appContext;
   const { videoId } = infoVideo.id;
   const { thumbnails, title, description } = infoVideo.snippet;
   return (
-    <CardView to={`watch/${videoId}`}>
+    <CardView darkThemeOn={darkThemeOn} to={`watch/${videoId}`}>
       <img src={thumbnails.high.url} alt="thumbnail"></img>
       <h2> {title} </h2>
       <span> {description} </span>

@@ -6,7 +6,7 @@ export const CardView = styled(Link)`
   flex-wrap: wrap;
   text-decoration: none;
   color: black;
-  background-color: white;
+  background-color: ${(prop) => (prop.darkThemeOn ? '#1E1E1E' : '#FFFFFF')};
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   width: 20%;
@@ -26,6 +26,7 @@ export const CardView = styled(Link)`
   }
 
   h2 {
+    color: ${(prop) => (prop.darkThemeOn ? '#FFFFFF' : '#202124')};
     min-height: 50px;
     overflow: hidden;
     text-overflow: ellipsis;

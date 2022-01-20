@@ -13,7 +13,6 @@ export const CustomDiv = styled.div`
     margin-top: 40px;
 
     img {
-      height: 200px;
       width: 200px;
     }
 

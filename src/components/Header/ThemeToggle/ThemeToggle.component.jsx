@@ -1,17 +1,22 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useContext } from 'react';
+import { types } from '../../../utils/reducer';
+import { GlobalContext } from '../../App/App.component';
 import { Input, Switch, Label } from './ThemeToggle.styles';
 
 const ThemeToggle = () => {
-  const [checked, setChecked] = useState(false);
+  const { darkThemeOn } = useContext(GlobalContext).appContext;
+  const { setAppContext } = useContext(GlobalContext);
 
-  const handleChange = (e) => {
-    setChecked(e.target.checked);
+  const handleChange = () => {
+    setAppContext({
+      type: types.THEME_TOGGLE,
+      payload: !darkThemeOn,
+    });
   };
 
   return (
     <Label>
-      <Input checked={checked} type="checkbox" onChange={handleChange} />
+      <Input checked={darkThemeOn} type="checkbox" onChange={handleChange} />
       <Switch />
       <span style={{ color: 'white' }}>Dark mode</span>
     </Label>

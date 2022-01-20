@@ -6,4 +6,5 @@ export const CustomDiv = styled.div`
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  background-color: ${(prop) => (prop.darkThemeOn ? '#121212' : '#FFFFFF')};
 `;

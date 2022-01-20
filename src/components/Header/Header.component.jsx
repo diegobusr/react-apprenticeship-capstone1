@@ -7,14 +7,12 @@ import LeftSideHeader from './LeftSideHeader';
 import RightSideHeader from './RigthSideHeader';
 import { Navbar } from './Header.styles';
 
-const Header = ({ setSearchText }) => {
-  const props = { setSearchText };
-
+const Header = () => {
   return (
     <Navbar>
       <LeftSideHeader>
         <BurgerMenu />
-        <SearchBar {...props} />
+        <SearchBar />
       </LeftSideHeader>
       <RightSideHeader>
         <ThemeToggle />
